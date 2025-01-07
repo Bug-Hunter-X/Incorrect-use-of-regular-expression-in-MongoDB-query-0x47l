@@ -1,0 +1,2 @@
+# Incorrect use of regular expression in MongoDB query
+This repository contains a bug and its solution related to the incorrect use of regular expressions in MongoDB queries.  The bug arises when a simple regular expression is used without proper escaping or the use of MongoDB's regex operator, leading to unexpected errors or incorrect results when the target field contains special characters that are interpreted as regex metacharacters. The solution demonstrates the correct method of using regular expressions in MongoDB queries to avoid these issues.
